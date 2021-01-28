@@ -1,0 +1,95 @@
+.pricing{
+    width: 100%;
+    background-color: #F5F5F5;
+    padding-top: 15px;
+}   
+
+.pricing-introduction{
+    text-align: center;
+}
+.pricing-subtitle{
+    margin-bottom: 34px;
+}
+
+.pricing-description{
+    font-family: 'Open Sans',sans-serif;
+    text-align: center;
+    font-size: 14px;
+    font-weight:400 ;
+    color: #86878B;
+    margin-bottom: 36px;
+}
+.pricing-line{
+    background-color: #E72424;
+}
+.pricing-lists{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin:-15px;
+    
+}
+.pricing-list{
+    padding:15px;
+
+}
+.pricing-price{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    
+}
+.pricing-price-li{
+    width: 340px;
+    margin-bottom: 1px;
+    text-align: center;
+}
+.pricing-price-plan{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 50px;
+    background-color: #333333;
+    text-transform: capitalize;
+    
+    
+}
+.pricing-price-amount{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 35px;
+    line-height: 100px;
+    background-color: #333333;
+    color:  #FFFFFF;
+
+}
+.pricing-price-duration{
+    font-family: 'Open Sans', sans-serif;
+    line-height: 50px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    color: rgba(255,255,255,0.5);
+    background-color: #333333;
+    margin-bottom: 2px;
+}
+.pricing-price-memory-size{
+    font-family: 'Open Sans', sans-serif;
+
+    line-height:40px ;
+    font-size: 14px;
+    font-style: normal;
+    font-weight:normal;
+    color:#86878B ;
+    background-color: #FFFFFF;
+    margin-bottom: 4px;
+}
+.price-orange-duration{
+    background-color: #D98943;
+    font-weight: 800;
+}

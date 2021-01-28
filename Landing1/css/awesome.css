@@ -5,23 +5,15 @@
     width: 100%;
     margin: auto;
 }
-.awesome-title{
-    font:Raleway;
-    font-size: 36px;
-    color: #212121;
-    font-weight: 400;
-    text-align: center;
+.awesome-subtitle{
     margin-top: 100px;
     margin-bottom: 25px;
 }
-#awesome-rectangle{
-    width: 64px;
-    height: 2px;
+.awesome-line{
     background-color: #D98943;
-    margin: auto;
-    margin-bottom: 20px;
 }
 .awesome-description{
+    font-family: 'Open Sans', sans-serif;
     text-align: center;
     font-size: 14px;
     font-weight:400 ;
@@ -29,19 +21,17 @@
     margin-bottom: 36px;
 }
 .awesome-reasons{
-    margin: auto;
-    /* padding-left:112px ;
-    padding-right:112px ; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin:-15px;
 }
 .awesome-reason{
-    display: inline-block;
-    margin: auto;
     width: 30%;
-    margin-right: 16px;
-    margin-left: 16px;
-    margin-top: 31px;
     margin-bottom: 89px;
     text-align: center;
+    padding:15px;
 }
 .awesome-reasons-cirlce{
     border: 2px solid #D98943;
@@ -54,7 +44,7 @@
   align-items: center;
   justify-content: center
 }
-.awesome-subtitle{
+.awesome-reason-subtitle{
     text-align: center;
     font-size: 20px;
     font-weight: 700;
