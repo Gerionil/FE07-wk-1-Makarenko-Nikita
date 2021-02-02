@@ -7,11 +7,18 @@
 }
 .awesome-subtitle{
     margin-top: 100px;
-    margin-bottom: 25px;
 }
-.awesome-line{
-    background-color: #D98943;
+.awesome-subtitle::after{
+    content:"";
+    display: block;
+    width: 64px;
+    height: 2px;
+    background-color: #E72424;
+    margin: auto;
+    margin-bottom: 34px;
+    margin-top: 34px;
 }
+
 .awesome-description{
     font-family: 'Open Sans', sans-serif;
     text-align: center;
@@ -34,7 +41,7 @@
     padding:15px;
 }
 .awesome-reasons-cirlce{
-    border: 2px solid #D98943;
+    border: 2px solid #E72424;
     border-radius: 50%;
     width:70px ;
     height: 70px;

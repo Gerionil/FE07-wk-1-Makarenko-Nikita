@@ -1,0 +1,120 @@
+.customers{
+    width: 100%;
+
+}
+
+.customers-introduction{
+    text-align: center;
+    /* padding-top: 80px; */
+    margin-bottom: 67px;
+}
+
+.customers-subtitle{
+    margin-top: 100px;
+}
+
+.customers-subtitle::after{
+    content:"";
+    display: block;
+    width: 64px;
+    height: 2px;
+    background-color: #E72424;
+    margin: auto;
+    margin-top: 34px;
+    margin-bottom: 34px ;
+}
+
+.customers-description{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 14px;
+    font-weight:400 ;
+    color: #86878B;
+    /* margin-bottom: 36px; */
+}
+.customers-reviews{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin:0 -15px;
+    margin-bottom: 120px;
+}
+.cutomers-reviews-review{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 15px;
+    margin-bottom:20px;
+
+}
+
+.cutomers-reviews-review-text{
+    border-radius: 7px;
+    background-color:#E2E2E2 ;
+    padding: 10px;
+    margin-bottom: 22px;
+    position: relative;
+}
+.cutomers-reviews-review-text-value{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color:#86878B;
+}
+.triangle{
+    position: absolute;
+    width: 0; 
+  height: 0; 
+  border-left: 17px solid transparent; 
+  border-right: 17px solid transparent; 
+  border-top: 17px solid#E2E2E2;
+  bottom: -17px;
+  left: 34px;
+  display: block;
+}
+.cutomers-reviews-review-customer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.cutomers-reviews-review-customer-photo{
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    border-radius: 50%;
+
+}
+.cutomers-reviews-review-customer-photo-value{
+    height: 100%;
+    position: absolute;
+}
+.cutomers-reviews-review-customer-info{
+
+}
+
+.cutomers-reviews-review-customer-info-name{
+margin-bottom: 12px;
+}
+.cutomers-reviews-review-customer-info-name-value{
+    font-size: 20px ;
+    font-weight:bold ;
+    font-family:'Open Sans', sans-serif ;
+    line-height: 27px;
+    text-align: center;
+}
+
+.cutomers-reviews-review-customer-info-position-value{
+    font-size: 14px ;
+    font-weight:400 ;
+    font-family:'Open Sans', sans-serif ;
+    line-height: 19px;
+    text-align: end;
+    color: #86878B;
+
+}

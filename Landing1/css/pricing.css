@@ -11,6 +11,16 @@
 .pricing-subtitle{
     margin-bottom: 34px;
 }
+.pricing-subtitle::after{
+    content:"";
+    display: block;
+    width: 64px;
+    height: 2px;
+    background-color: #E72424;
+    margin: auto;
+    margin-top: 34px;
+    margin-bottom: 34px ;
+}
 
 .pricing-description{
     font-family: 'Open Sans',sans-serif;
@@ -20,9 +30,7 @@
     color: #86878B;
     margin-bottom: 36px;
 }
-.pricing-line{
-    background-color: #E72424;
-}
+
 .pricing-lists{
     display: flex;
     flex-direction: row;
@@ -82,6 +90,12 @@
     background-color: #333333;
     margin-bottom: 2px;
 }
+
+.pricing-price-duration:hover{
+    
+    background-color: #D98943;
+    font-weight: 800;
+}
 .pricing-price-memory-size{
     font-family: 'Open Sans', sans-serif;
 
@@ -93,7 +107,13 @@
     background-color: #FFFFFF;
     margin-bottom: 4px;
 }
-.price-orange-duration{
+.pricing-price-memory-size:hover{
+    background-color: #333333;
+    font-weight: 800;
+    color:#FFFFFF;
+
+}
+/* .price-orange-duration{
     background-color: #D98943;
     font-weight: 800;
-}
+} */
