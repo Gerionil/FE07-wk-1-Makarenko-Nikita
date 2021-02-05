@@ -2,6 +2,9 @@
 @import url("../css/pricing.css");
 @import url("../css/cutomers.css");
 @import url('../css/axure.css');
+@import url('../css/header.css');
+@import url('../css/footer.css');
+@import url('../css/social.css');
 
 
 * { 
@@ -19,6 +22,7 @@
     z-index: 1;
     
 }
+
 #rectangle{
     width: 64px;
     height: 2px;

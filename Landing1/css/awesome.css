@@ -48,8 +48,8 @@
     margin: auto; 
     margin-bottom: 30px;
     display: flex;
-  align-items: center;
-  justify-content: center
+    align-items: center;
+    justify-content: center;
 }
 .awesome-reason-subtitle{
     text-align: center;
@@ -69,3 +69,11 @@
 .awesome-icon{
     margin:0;
 }
+
+.awesome-icons {
+    font-size: 23px;
+    color: #E72424;
+  }
+
+
+  
